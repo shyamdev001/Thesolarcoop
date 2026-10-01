@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "app/globals.css"
+        ],
+        "createdAt": "2026-09-11T10:21:31.484Z",
+        "reason": "false positive: not a static card accent border — this is the glowing leading edge of a full-screen diagonal page-transition panel (gradient-faded, box-shadow glow), a deliberate animated light-trail effect explicitly requested by the user this turn, not a generic AI-tell card border"
+      }
+    ]
+  }
+}
