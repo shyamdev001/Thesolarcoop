@@ -36,7 +36,7 @@ export const ARTICLES: Article[] = [
     date: "2026-05-10",
     dateLabel: "10 May 2026",
     readMinutes: 5,
-    image: "/assets/img/installer-portrait.jpg",
+    image: "/assets/img/installer-portrait.webp",
     imageAlt: "A Solar Coop installer fastening a panel on a rooftop",
     sourceUrl: "https://www.thesolarcoop.in/blog/1",
     blocks: [
@@ -129,7 +129,7 @@ export const ARTICLES: Article[] = [
     date: "2026-05-08",
     dateLabel: "08 May 2026",
     readMinutes: 7,
-    image: "/assets/img/aerial-commercial-roof.jpg",
+    image: "/assets/img/aerial-commercial-roof.webp",
     imageAlt: "Aerial view of a rooftop solar array",
     sourceUrl: "https://www.thesolarcoop.in/blog/2",
     blocks: [
@@ -279,7 +279,7 @@ export const ARTICLES: Article[] = [
     date: "2026-05-05",
     dateLabel: "05 May 2026",
     readMinutes: 6,
-    image: "/assets/img/crew-installing.jpg",
+    image: "/assets/img/crew-installing.webp",
     imageAlt: "The Solar Coop team installing panels on a rooftop rail system",
     sourceUrl: "https://www.thesolarcoop.in/blog/3",
     blocks: [
@@ -385,7 +385,7 @@ export const ARTICLES: Article[] = [
     date: "2026-05-02",
     dateLabel: "02 May 2026",
     readMinutes: 6,
-    image: "/assets/img/aerial-farm.jpg",
+    image: "/assets/img/aerial-farm.webp",
     imageAlt: "Aerial view of a ground-mounted solar array beside farm buildings",
     sourceUrl: "https://www.thesolarcoop.in/blog/4",
     blocks: [

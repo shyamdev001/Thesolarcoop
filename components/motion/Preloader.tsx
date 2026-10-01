@@ -37,7 +37,7 @@ function whenReady(): Promise<void> {
     const img = new Image();
     img.onload = () => resolve();
     img.onerror = () => resolve();
-    img.src = "/assets/img/panels-sunset.jpg";
+    img.src = "/assets/img/panels-sunset.webp";
   });
   const real = Promise.all([fonts, poster]).then(() => undefined);
   const capped = new Promise<void>((resolve) => window.setTimeout(resolve, MAX_MS));

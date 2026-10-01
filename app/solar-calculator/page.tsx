@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Solar Savings Calculator | The Solar Coop",
     description: "A real, PM Surya Ghar-aware estimate — updated instantly as you drag the slider.",
-    images: [{ url: "/assets/img/pmsg-subsidy-consultation.jpg" }],
+    images: [{ url: "/assets/img/pmsg-subsidy-consultation.webp" }],
   },
 };
 

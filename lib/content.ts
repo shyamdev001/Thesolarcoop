@@ -103,39 +103,39 @@ export const WORK_ITEMS: {
   modifier?: "work-item--wide" | "work-item--tall";
 }[] = [
   {
-    src: "/assets/img/gallery/customer-piplav-rooftop.jpg",
+    src: "/assets/img/gallery/customer-piplav-rooftop.webp",
     alt: "A customer standing on her terrace under her newly installed rooftop solar panels in Piplav, Gujarat",
     a: "work_1_a",
     b: "work_1_b",
     modifier: "work-item--wide",
   },
   {
-    src: "/assets/img/gallery/rooftop-kaprupur.jpg",
+    src: "/assets/img/gallery/rooftop-kaprupur.webp",
     alt: "A completed rooftop solar mounting structure above a home in Kaprupur, Gujarat",
     a: "work_2_a",
     b: "work_2_b",
   },
   {
-    src: "/assets/img/gallery/rooftop-array-closeup.jpg",
+    src: "/assets/img/gallery/rooftop-array-closeup.webp",
     alt: "Close-up of a tilted rooftop solar array overlooking a Gujarat village",
     a: "work_3_a",
     b: "work_3_b",
   },
   {
-    src: "/assets/img/gallery/rooftop-terrace-array.jpg",
+    src: "/assets/img/gallery/rooftop-terrace-array.webp",
     alt: "A rooftop solar array mounted beside a home's terrace in Gujarat",
     a: "work_4_a",
     b: "work_4_b",
   },
   {
-    src: "/assets/img/gallery/rooftop-tinroof-angle.jpg",
+    src: "/assets/img/gallery/rooftop-tinroof-angle.webp",
     alt: "Solar panels angled above a tin roof on a rural Gujarat home",
     a: "work_5_a",
     b: "work_5_b",
     modifier: "work-item--tall",
   },
   {
-    src: "/assets/img/gallery/rooftop-terrace-structure.jpg",
+    src: "/assets/img/gallery/rooftop-terrace-structure.webp",
     alt: "A rooftop solar mounting structure over an empty terrace, overlooking a Gujarat town",
     a: "work_6_a",
     b: "work_6_b",

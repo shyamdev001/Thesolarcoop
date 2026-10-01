@@ -81,7 +81,7 @@ export function Hero() {
       <div className="hero-media" aria-hidden="true">
         <BackgroundVideo
           src="/assets/video/panels-sunset.mp4"
-          poster="/assets/img/panels-sunset.jpg"
+          poster="/assets/img/panels-sunset.webp"
         />
         <div className="hero-scrim" />
       </div>

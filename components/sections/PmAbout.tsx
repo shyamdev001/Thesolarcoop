@@ -25,7 +25,7 @@ export function PmAbout() {
       <div className="pm-about-layout">
         <div className="pm-about-photo" data-reveal>
           <Image
-            src="/assets/img/pmsg-rooftop-install.jpg"
+            src="/assets/img/pmsg-rooftop-install.webp"
             alt="A real rooftop solar installation on a home in Gujarat, completed under PM Surya Ghar"
             fill
             sizes="(max-width: 900px) 100vw, 45vw"

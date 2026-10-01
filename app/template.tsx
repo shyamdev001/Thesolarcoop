@@ -102,7 +102,11 @@ export default function Template({ children }: { children: ReactNode }) {
 
     const timeline = gsap
       .timeline({ onComplete: hardHide, onInterrupt: hardHide })
-      .to(svg, { yPercent: -100, duration: WIPE.revealDuration, ease: WIPE.revealEase });
+      .to(
+        svg,
+        { yPercent: -100, duration: WIPE.revealDuration, ease: WIPE.revealEase },
+        WIPE.holdDuration,
+      );
 
     const failsafe = window.setTimeout(hardHide, 1600);
     document.addEventListener("visibilitychange", hardHide);

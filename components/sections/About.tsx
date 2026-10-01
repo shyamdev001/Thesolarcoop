@@ -69,7 +69,7 @@ export function About() {
           <figure className="about-photo" data-reveal>
             <div className="about-photo-parallax" ref={photoWrapRef}>
               <Image
-                src="/assets/img/crew-installing.jpg"
+                src="/assets/img/crew-installing.webp"
                 alt="The Solar Coop team fixing solar panels onto a rooftop rail system"
                 fill
                 sizes="(max-width: 900px) 100vw, 45vw"

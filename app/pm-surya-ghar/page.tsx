@@ -41,7 +41,7 @@ export default function PmSuryaGharPage() {
         secondary={{ href: CONTACT.phoneHref, labelKey: "cta_call" }}
         mark="sun"
         photo={{
-          src: "/assets/img/installer-portrait.jpg",
+          src: "/assets/img/installer-portrait.webp",
           alt: "A Solar Coop technician testing a newly installed rooftop solar panel",
         }}
       />

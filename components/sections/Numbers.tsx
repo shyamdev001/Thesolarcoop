@@ -29,7 +29,7 @@ export function Numbers() {
       <div className="numbers-media" aria-hidden="true" ref={mediaRef}>
         <BackgroundVideo
           src="/assets/video/aerial-field.mp4"
-          poster="/assets/img/aerial-commercial-roof.jpg"
+          poster="/assets/img/aerial-commercial-roof.webp"
         />
         <div className="numbers-scrim" />
       </div>

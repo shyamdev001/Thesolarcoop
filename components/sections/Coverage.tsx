@@ -25,7 +25,7 @@ export function Coverage() {
         <article className="area-card area-card--feature" ref={featureRef} data-reveal>
           <div className="area-card--feature-media">
             <Image
-              src="/assets/img/aerial-farm.jpg"
+              src="/assets/img/aerial-farm.webp"
               alt="Aerial view of a ground-mounted solar array beside farm buildings"
               fill
               sizes="(max-width: 900px) 100vw, 50vw"

@@ -11,19 +11,19 @@ import { SERVICE_DETAILS } from "@/lib/content";
 /** One real photo per service — an alternating showcase, not a plain list. */
 const PHOTOS = [
   {
-    src: "/assets/img/crew-rooftop.jpg",
+    src: "/assets/img/crew-rooftop.webp",
     alt: "The Solar Coop crew working together on a rooftop panel installation",
   },
   {
-    src: "/assets/img/aerial-commercial-roof.jpg",
+    src: "/assets/img/aerial-commercial-roof.webp",
     alt: "Aerial view of a large commercial rooftop covered edge to edge with solar panels",
   },
   {
-    src: "/assets/img/aerial-farm.jpg",
+    src: "/assets/img/aerial-farm.webp",
     alt: "Aerial view of a ground-mounted solar array beside farm buildings in Gujarat",
   },
   {
-    src: "/assets/img/installer-hardhat.jpg",
+    src: "/assets/img/installer-hardhat.webp",
     alt: "A Solar Coop technician in a hard hat servicing an installed system",
   },
 ];

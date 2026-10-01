@@ -135,6 +135,7 @@ export function Footer() {
           <span>{CONTACT.legalName}</span>
           <span>{t("footer_copyright")}</span>
           <Link href="/privacy-policy/">{t("footer_privacy")}</Link>
+          <Link href="/terms-of-service/">{t("footer_terms")}</Link>
         </span>
         <div className="footer-social">
           {SOCIAL_LINKS.map((social) => {

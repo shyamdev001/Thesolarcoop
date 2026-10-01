@@ -11,35 +11,35 @@
 
 export const GALLERY_PHOTOS = [
   {
-    src: "/assets/img/gallery/customer-piplav-rooftop.jpg",
+    src: "/assets/img/gallery/customer-piplav-rooftop.webp",
     alt: "A customer standing on her terrace under her newly installed rooftop solar panels in Piplav, Gujarat",
   },
   {
-    src: "/assets/img/gallery/rooftop-kaprupur.jpg",
+    src: "/assets/img/gallery/rooftop-kaprupur.webp",
     alt: "A completed rooftop solar structure above a home in Kaprupur, Gujarat",
   },
   {
-    src: "/assets/img/gallery/rooftop-array-closeup.jpg",
+    src: "/assets/img/gallery/rooftop-array-closeup.webp",
     alt: "Close-up of a tilted rooftop solar array overlooking a Gujarat village",
   },
   {
-    src: "/assets/img/gallery/rooftop-terrace-array.jpg",
+    src: "/assets/img/gallery/rooftop-terrace-array.webp",
     alt: "A rooftop solar array mounted beside a home's terrace in Gujarat",
   },
   {
-    src: "/assets/img/gallery/rooftop-tinroof-angle.jpg",
+    src: "/assets/img/gallery/rooftop-tinroof-angle.webp",
     alt: "Solar panels angled above a tin roof on a rural Gujarat home",
   },
   {
-    src: "/assets/img/gallery/rooftop-terrace-structure.jpg",
+    src: "/assets/img/gallery/rooftop-terrace-structure.webp",
     alt: "A rooftop solar mounting structure over an empty terrace, overlooking a Gujarat town",
   },
   {
-    src: "/assets/img/gallery/waaree-inverter-install.jpg",
+    src: "/assets/img/gallery/waaree-inverter-install.webp",
     alt: "A Waaree solar inverter installed on a wall between two electrical distribution boxes",
   },
   {
-    src: "/assets/img/gallery/net-meter-inverter-box.jpg",
+    src: "/assets/img/gallery/net-meter-inverter-box.webp",
     alt: "A net-metering box and solar inverter installed together on a wall",
   },
 ] as const;

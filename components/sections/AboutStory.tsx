@@ -51,7 +51,7 @@ export function AboutStory() {
         <div className="about-story-photo" data-reveal ref={photoRef}>
           <Image
             ref={imgRef}
-            src="/assets/img/crew-installing.jpg"
+            src="/assets/img/crew-installing.webp"
             alt="The Solar Coop team fixing solar panels onto a rooftop rail system"
             fill
             sizes="(max-width: 900px) 100vw, 45vw"

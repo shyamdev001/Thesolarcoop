@@ -72,10 +72,15 @@ export const HEADING = {
 /**
  * Page-transition wipe — the band starts already covering the screen (see
  * app/template.tsx for why) and exits off the top, revealing the new page.
- * Stays inside the 500–700ms "feels like a transition, not a loading
- * screen" range.
+ *
+ * holdDuration is a brief pause before the sweep starts: with no hold at
+ * all, the exit began the instant the band appeared, so the color read as a
+ * flash rather than a deliberate cover-and-reveal. revealDuration was raised
+ * from 0.58s for the same reason — fast enough to feel responsive, slow
+ * enough that the wave's motion is actually visible as it leaves.
  */
 export const WIPE = {
-  revealDuration: 0.58,
+  holdDuration: 0.16,
+  revealDuration: 0.85,
   revealEase: "power3.inOut",
 } as const;

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type BackgroundVideoProps = {
   src: string;
@@ -12,20 +12,33 @@ type BackgroundVideoProps = {
  * Muted, looping background video. Autoplays, pauses when scrolled out of
  * view, and honours prefers-reduced-motion (the CSS hides <video> there and
  * shows a dark overlay instead). Ported from main.js.
+ *
+ * The <source> isn't attached until the element is within 600px of the
+ * viewport. These clips run 7-9MB each, and three of them sit on the home
+ * page alone (Hero, Numbers, Process) — the old `autoPlay` + an immediate
+ * `.play()` call on mount made every one of them start downloading the
+ * instant the page loaded, Hero's video included, whether a visitor ever
+ * scrolled far enough to see the other two or not. Arming on intersection
+ * instead means only the video(s) actually in view ever get fetched.
  */
 export function BackgroundVideo({ src, poster, className }: BackgroundVideoProps) {
   const ref = useRef<HTMLVideoElement>(null);
+  const [armed, setArmed] = useState(false);
 
   useEffect(() => {
     const video = ref.current;
-    if (!video) return;
+    if (!video || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reduce) {
-      video.removeAttribute("autoplay");
-      video.pause();
-      return;
-    }
+    const io = new IntersectionObserver(([entry]) => entry.isIntersecting && setArmed(true), {
+      rootMargin: "600px 0px",
+    });
+    io.observe(video);
+    return () => io.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const video = ref.current;
+    if (!video || !armed) return;
 
     const play = () => {
       const p = video.play();
@@ -43,19 +56,11 @@ export function BackgroundVideo({ src, poster, className }: BackgroundVideoProps
     io.observe(video);
 
     return () => io.disconnect();
-  }, []);
+  }, [armed]);
 
   return (
-    <video
-      ref={ref}
-      className={className}
-      autoPlay
-      muted
-      loop
-      playsInline
-      poster={poster}
-    >
-      <source src={src} type="video/mp4" />
+    <video ref={ref} className={className} muted loop playsInline poster={poster} preload="none">
+      {armed && <source src={src} type="video/mp4" />}
     </video>
   );
 }

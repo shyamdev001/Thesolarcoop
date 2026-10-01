@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/gallery/`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE}/solar-calculator/`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/privacy-policy/`, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${BASE}/terms-of-service/`, changeFrequency: "yearly", priority: 0.2 },
   ];
 
   const articleRoutes: MetadataRoute.Sitemap = ARTICLES.map((article) => ({

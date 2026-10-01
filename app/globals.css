@@ -4739,7 +4739,14 @@ ol {
   }
 
   .about-story-photo {
-    position: static;
+    /* Not position:static — that strips its own positioned-ancestor status,
+       which the <Image fill> inside it (AboutStory.tsx) relies on to size
+       itself against this box. Without it, the image sized itself against
+       an ancestor much further up the tree, rendering ~900px wide and
+       blowing out the page's horizontal scroll at tablet widths. relative
+       drops the sticky behavior just the same while keeping that reference
+       intact. */
+    position: relative;
   }
 
   .about-vm-grid {
@@ -5952,6 +5959,10 @@ html.lenis body {
 
 .page-wipe-svg path {
   fill: var(--accent-light);
+  /* Soft shadow just under the wave's edge — the only part of the band
+     that's ever visible mid-motion — so the sweep reads as a dimensional
+     curtain rather than a flat color swap. */
+  filter: drop-shadow(0 10px 18px rgba(26, 12, 2, 0.16));
 }
 
 /* Floating WhatsApp CTA (components/layout/WhatsAppFloat.tsx) — bottom

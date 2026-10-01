@@ -30,7 +30,7 @@ export function CtaBand({
     <section className="section cta-band" ref={sectionRef}>
       <div className="cta-media" aria-hidden="true">
         <div className="cta-media-photo" ref={photoRef}>
-          <Image src="/assets/img/solar-array-golden.jpg" alt="" fill sizes="100vw" />
+          <Image src="/assets/img/solar-array-golden.webp" alt="" fill sizes="100vw" />
         </div>
         <div className="cta-scrim" />
       </div>

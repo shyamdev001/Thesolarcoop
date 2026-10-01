@@ -36,7 +36,7 @@ export default function ServicesPage() {
         secondary={{ href: "#process", labelKey: "hero_link" }}
         mark="grid"
         photo={{
-          src: "/assets/img/crew-installing.jpg",
+          src: "/assets/img/crew-installing.webp",
           alt: "The Solar Coop team installing panels on a rooftop rail system",
         }}
       />

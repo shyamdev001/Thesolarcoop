@@ -19,7 +19,7 @@ export function Founder() {
       <div className="founder" data-reveal>
         <div className="founder-photo">
           <Image
-            src="/assets/img/founder-tejash-patel.jpg"
+            src="/assets/img/founder-tejash-patel.webp"
             alt="Tejash Patel, Founder and Managing Director of The Solar Coop"
             fill
             sizes="(max-width: 900px) 100vw, 40vw"

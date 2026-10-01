@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "Blog | The Solar Coop",
     description:
       "Solar pricing, subsidy and installation guides for Gujarat, from thesolarcoop.in.",
-    images: [{ url: "/assets/img/installer-hardhat.jpg" }],
+    images: [{ url: "/assets/img/installer-hardhat.webp" }],
   },
 };
 

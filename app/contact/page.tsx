@@ -37,7 +37,7 @@ export default function ContactPage() {
         mark="pin"
         showSocial
         photo={{
-          src: "/assets/img/pmsg-subsidy-consultation.jpg",
+          src: "/assets/img/pmsg-subsidy-consultation.webp",
           alt: "A Solar Coop team member walking a customer through PM Surya Ghar subsidy and loan paperwork at the office",
         }}
       />

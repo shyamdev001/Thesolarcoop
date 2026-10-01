@@ -11,10 +11,10 @@ import { HOME_SERVICES } from "@/lib/content";
 
 /** One photo per service, in the same order as HOME_SERVICES. */
 const SERVICE_IMAGES = [
-  { src: "/assets/img/installer-portrait.jpg", alt: "An installer securing a residential rooftop panel" },
-  { src: "/assets/img/aerial-commercial-roof.jpg", alt: "Aerial view of a large commercial rooftop solar array" },
-  { src: "/assets/img/field-closeup.jpg", alt: "Aerial view of a ground-mounted farm solar array" },
-  { src: "/assets/img/installer-hardhat.jpg", alt: "A technician servicing panels on a rooftop" },
+  { src: "/assets/img/installer-portrait.webp", alt: "An installer securing a residential rooftop panel" },
+  { src: "/assets/img/aerial-commercial-roof.webp", alt: "Aerial view of a large commercial rooftop solar array" },
+  { src: "/assets/img/field-closeup.webp", alt: "Aerial view of a ground-mounted farm solar array" },
+  { src: "/assets/img/installer-hardhat.webp", alt: "A technician servicing panels on a rooftop" },
 ];
 
 /**

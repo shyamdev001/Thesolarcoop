@@ -156,7 +156,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Privacy Policy | The Solar Coop",
     description: "How The Solar Coop collects, uses and protects your information.",
-    images: [{ url: "/assets/img/pmsg-subsidy-consultation.jpg" }],
+    images: [{ url: "/assets/img/pmsg-subsidy-consultation.webp" }],
   },
 };
 

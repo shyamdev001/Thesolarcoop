@@ -267,6 +267,7 @@ export const translations = {
     footer_g3: 'Email us',
     footer_copyright: '© 2026 The Solar Coop. All rights reserved.',
     footer_privacy: 'Privacy Policy',
+    footer_terms: 'Terms of Service',
     footer_contact: 'Contact',
 
     // ===== About page =====
@@ -672,6 +673,7 @@ export const translations = {
     footer_g3: 'ઈમેલ કરો',
     footer_copyright: '© 2026 The Solar Coop. સર્વ હક્ક સુરક્ષિત.',
     footer_privacy: 'ગોપનીયતા નીતિ',
+    footer_terms: 'સેવાની શરતો',
     footer_contact: 'સંપર્ક',
 
     // ===== About page =====

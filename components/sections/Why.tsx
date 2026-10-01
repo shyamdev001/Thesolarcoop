@@ -10,15 +10,15 @@ import { WHY_CARDS } from "@/lib/content";
 /** One warm plate per reason — the visual half of the ledger. */
 const PLATES = [
   {
-    src: "/assets/img/aerial-commercial-roof.jpg",
+    src: "/assets/img/aerial-commercial-roof.webp",
     alt: "Aerial view of a large commercial rooftop covered edge to edge with solar panels",
   },
   {
-    src: "/assets/img/crew-rooftop.jpg",
+    src: "/assets/img/crew-rooftop.webp",
     alt: "The Solar Coop crew working together on a rooftop panel installation",
   },
   {
-    src: "/assets/img/pmsg-subsidy-consultation.jpg",
+    src: "/assets/img/pmsg-subsidy-consultation.webp",
     alt: "A Solar Coop team member reviewing PM Surya Ghar subsidy paperwork with a customer, next to KDCC bank loan-partnership signage",
   },
 ];

@@ -39,7 +39,7 @@ export default function AboutPage() {
         secondary={{ href: CONTACT.phoneHref, labelKey: "cta_call" }}
         mark="coop"
         photo={{
-          src: "/assets/img/aerial-farm.jpg",
+          src: "/assets/img/aerial-farm.webp",
           alt: "Aerial view of a ground-mounted solar array beside farm buildings in Gujarat",
         }}
       />

@@ -60,7 +60,7 @@ export function PmImpact() {
       <div className="pm-impact-media" aria-hidden="true">
         <div className="pm-impact-photo" ref={photoRef}>
           <Image
-            src="/assets/img/pmsg-net-meter.jpg"
+            src="/assets/img/pmsg-net-meter.webp"
             alt="A real net-metering and inverter setup installed by The Solar Coop"
             fill
             sizes="100vw"

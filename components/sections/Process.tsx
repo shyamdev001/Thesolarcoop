@@ -104,7 +104,7 @@ export function Process() {
       <figure className="process-media" ref={mediaRef} data-reveal>
         <BackgroundVideo
           src="/assets/video/install-work.mp4"
-          poster="/assets/img/installer-hardhat.jpg"
+          poster="/assets/img/installer-hardhat.webp"
         />
       </figure>
     </section>
